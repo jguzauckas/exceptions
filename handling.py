@@ -1,7 +1,7 @@
 def divide(a: int, b: int) -> float:
     try:
         return a / b
-    except:
+    except Exception:
         print("There was an error")
 
 
@@ -27,7 +27,7 @@ def divide(a: int, b: int) -> float:
         print(zde)
     except OverflowError as ofe:
         print(ofe)
-    except:
+    except Exception:
         print("Some other error happened")
 
 
