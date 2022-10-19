@@ -14,8 +14,6 @@
 # - getter and setter methods for name, age, and occupation. Make sure
 #   to check for values that are acceptable. Raise a ValueError if they try
 #   to set age to a negative number
-from ast import Index
-from tkinter import N
 
 
 class Person:
@@ -49,7 +47,7 @@ class Person:
 
     @name.setter
     def name(self, n: str) -> None:
-        self._name = N
+        self._name = n
 
     @property
     def age(self) -> int:

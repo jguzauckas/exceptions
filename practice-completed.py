@@ -3,9 +3,6 @@
 # when we ask the user to enter something (what if they enter
 # something they aren't supposed to?)
 # Finally, print out their number squared, if applicable
-from typing import Type
-
-
 try:
     inp = int(input("Enter a number to square: "))
 except ValueError as ve:
